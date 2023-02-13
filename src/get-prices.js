@@ -5,7 +5,7 @@ const main = async () => {
     "https://indexer.ref.finance/list-token-price",
   ).then((res) => res.json())
 
-  console.info(prices)
+  console.info(JSON.stringify(prices))
 }
 
 main()
