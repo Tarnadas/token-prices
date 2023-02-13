@@ -20,6 +20,6 @@ jobs:
       - uses: EndBug/add-and-commit@v9
         with:
           author_name: "REF Prices Updater"
-          author_email: "radu@proximity.dev"
+          author_email: "mario.reder@pm.me"
           add: "ref-prices.json --force"
           message: "ref prices fetching"
